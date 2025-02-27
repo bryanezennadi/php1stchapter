@@ -23,6 +23,9 @@ $_SESSION['scuola'] = 'itis';
 <br>
 <p> <?= session_id() ?></p>
 
-<!-- se si cancella il cookie dal browser, il server ne cheide uno nuovo, però nel tmp si salvano entrambe -->
+<!-- se si cancella il cookie dal browser, il server ne cheide uno nuovo, però nel tmp si salvano entrambe
+ se l'utente disabilita i cookies si può decidere di salvare il cookie di sessione nell'url
+ session injection
+ -->
 </body>
 </html>
